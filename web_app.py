@@ -1107,7 +1107,7 @@ async def get_printable_trade_journal_html():
         <div class="header-banner">
             <div>
                 <div class="title">گزارش تحلیلی ژورنال معاملات هوش مصنوعی (AI Trade Journal)</div>
-                <div class="meta">پلتفرم NTK.Ai.Metatrader | توسعه‌دهنده: <a href="https://mohamadkaravi.com/" target="_blank" style="color: #2563eb; text-decoration: none;">محمد کراوی (Mohamad Karavi)</a></div>
+                <div class="meta">پلتفرم NTK.Ai.Metatrader | توسعه‌دهنده: <a href="https://mohamadkaravi.com/" target="_blank" style="color: #2563eb; text-decoration: none;">محمد کاروی (Mohamad Karavi)</a></div>
             </div>
             <div style="text-align: left;">
                 <button onclick="window.print()" class="print-btn no-print">🖨️ چاپ / ذخیره PDF</button>

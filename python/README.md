@@ -17,7 +17,7 @@
 ### معرفی
 ماژول پایتون **NTK.Ai.Metatrader** یک پکیج قدرتمند برای اتصال مدل‌های هوش مصنوعی (LLMs مانند DeepSeek و OpenAI) به متاتریدر ۵ است.
 
-- **توسعه‌دهنده:** [محمد کراوی (Mohamad Karavi)](https://mohamadkaravi.com/)
+- **توسعه‌دهنده:** [محمد کاروی (Mohamad Karavi)](https://mohamadkaravi.com/)
 - **وب‌سایت:** [https://mohamadkaravi.com/](https://mohamadkaravi.com/)
 
 ---

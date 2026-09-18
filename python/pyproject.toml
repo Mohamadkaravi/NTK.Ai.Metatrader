@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ntk-ai-metatrader"
+version = "1.2.2"
+description = "NTK AI MetaTrader: Advanced AI-powered Quantitative Trading System for MetaTrader 4 & 5 by Mohamad Karavi."
+readme = "README.md"
+requires-python = ">=3.9.7"
+license = "GPL-3.0-only"
+authors = [
+  { name = "Mohamad Karavi", email = "info@mohamadkaravi.com" }
+]
+dependencies = [
+  "requests>=2.32.5",
+  "customtkinter==5.2.2",
+  "MetaTrader5==5.0.5735",
+]
+
+[project.urls]
+"Homepage" = "https://mohamadkaravi.com/"
+"Inspiration (MetaTrader AI)" = "https://github.com/jblanked/metatrader-ai"
+"Inspiration (AI-Trader)" = "https://github.com/HKUDS/AI-Trader"
+
+[project.scripts]
+metatrader-ai = "metatrader_ai.cli:main"
+ntk-ai-metatrader = "metatrader_ai.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["metatrader_ai", "metatrader_ai.*"]
+
+[tool.setuptools.package-data]
+metatrader_ai = ["context/*.md", "workflows/*.md"]
